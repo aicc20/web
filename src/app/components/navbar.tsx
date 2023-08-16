@@ -8,7 +8,7 @@ const Navbar = () => (
       </button>
       <button className="title-bar-text font-mono font-bold text-rose-500">
         <a
-          href="https://www.dextools.io/app/en/pairs"
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0x9bf92f4e176c2aa3c439375ae49522a4367651c4"
           className="text-blue-500">
           dextools
         </a>
