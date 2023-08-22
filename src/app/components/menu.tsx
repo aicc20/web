@@ -17,8 +17,20 @@ const Menu = () => (
         </h2>
       </a>
     </button>
-    <button className="border flex w-full h-full items-center border-transparent bg-gray-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/90">
-      <TokenTable />
+    <button className="border flex w-full border-transparent bg-gray-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/90">
+      <a
+        href={"https://www.scatter.art/beautiful-princess-disorder?tab=mint"}
+        className={`text-blue-500 group rounded-lg flex flex-col w-full h-full items-center justify-center rounded-lg`}
+        target={"_blank"}
+        rel="noopener noreferrer">
+        <h2 className={`mb-3 text-2xl font-semibold`}>
+          MINT
+          <span
+            className={`inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none`}>
+            -&gt;
+          </span>
+        </h2>
+      </a>
     </button>
     <button className="border flex w-full border-transparent bg-gray-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/90">
       <a
